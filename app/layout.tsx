@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="relative">
+      <body className="relative overflow-y-visible ">
         <Navbar />
         {children}
         <Footer />
